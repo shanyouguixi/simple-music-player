@@ -10,3 +10,5 @@ simple-music-player
 =======
 - 自定义播放顺序
 >>>>>>> c062377b500db37c9ad606209085f9a52f0b615c
+
+![](https://github.com/shanyouguixi/simple-music-player/blob/master/pic/play.png)
