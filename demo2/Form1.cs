@@ -108,7 +108,7 @@ namespace demo2
                 label5.Text = "暂无歌词";
                 return;
             }
-            string[] lines = File.ReadAllLines(path);
+            string[] lines = File.ReadAllLines(path,Encoding.Default);
             for(int i = 0; i < lines.Length; i++)
             {
                 string[] temps = lines[i].Split(new char[2] { '[', ']' }, StringSplitOptions.RemoveEmptyEntries);
